@@ -57,3 +57,45 @@ blockquote {
     padding: 20px 0;
   }
 }
+
+#theme-toggle {
+  margin-top: 16px;
+  padding: 8px 14px;
+  color: #ffffff;
+  background-color: #3973ac;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#theme-toggle:hover {
+  background-color: #315a7d;
+}
+
+#github-repos li + li {
+  margin-top: 12px;
+}
+
+body.dark-theme {
+  color: #e5e7eb;
+  background-color: #111827;
+}
+
+body.dark-theme .profile-header,
+body.dark-theme .profile-section,
+body.dark-theme .profile-footer {
+  background-color: #1f2937;
+  border-color: #4b5563;
+}
+
+body.dark-theme .profile-section h2 {
+  color: #93c5fd;
+}
+
+body.dark-theme blockquote {
+  color: #cbd5e1;
+}
+
+body.dark-theme a {
+  color: #93c5fd;
+}
